@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability= "blocksDescendants" >
+
+    <TextView
+        android:id="@+id/taskContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:paddingBottom="15dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="5dp"
+        android:paddingStart="25dp"
+        android:paddingTop="10dp"
+        android:text="no data"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/sharePlanButton"
+        android:layout_width="0dp"
+        android:layout_weight="0.10"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_share" />
+
+    <ImageButton
+         android:id="@+id/startPlanButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:src="@drawable/planfrag_bt_carryplan"
+        android:focusable = "false" />
+
+</LinearLayout>
